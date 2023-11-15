@@ -26,3 +26,12 @@ The shell has other wildcards as well, though they are less commonly used:
 <h2 id='head'>head</h2>
 <h2 id='tail'>tail</h2>
 <h2 id='sort'>sort</h2>
+1. **Function of Sort**: Puts data in order.
+2. **Default Behavior**: Sorts in ascending alphabetical order.
+3. **Flag -n**: Sorts data numerically.
+4. **Flag -r**: Reverses the order of the output.
+5. **Flag -b**: Ignores leading blanks in data.
+6. **Flag -f**: Folds case, making the sorting case-insensitive.
+7. **Common Usage in Pipelines**:
+   - Initially use `grep` to eliminate unwanted records.
+   - Then apply `sort` to organize the remaining records.
